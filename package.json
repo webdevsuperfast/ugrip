@@ -2,7 +2,7 @@
   "name": "ugrip",
   "version": "0.1.0",
   "private": false,
-  "license" : "MIT",
+  "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
@@ -28,9 +28,9 @@
     "chord-magic": "^2.1.1",
     "grommet": "^2.11.2",
     "pdfmake": "^0.1.64",
-    "polished": "^3.4.4",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "polished": "^3.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-scripts": "3.4.0",
     "styled-components": "^5.0.1"
   },
@@ -42,7 +42,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.5.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
     "prettier": "^1.19.1",
     "serve": "^11.3.0"
   }
