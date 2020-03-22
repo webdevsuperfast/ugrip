@@ -168,7 +168,7 @@ function App() {
     transChords = transChords
       .join('')
       .replace(new RegExp(regex.join('|'), 'gm'), '')
-      .replace(new RegExp('-+(\\n|\\r|\\S)', 'gm'), '$1')
+      // .replace(new RegExp('-+(\\n|\\r|\\S)', 'gm'), '$1')
       .replace(/\[\/ch\]\s\[ch\]/g, '[/ch]  [ch]')
       .replace(/\[\/ch\]\[ch\]/g, '[/ch] [ch]')
       .replace(/\[\/ch\](\w)/g, '[/ch] $1');
